@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    text-align: center
+}
+
+ul {
+    border: 2px dotted rebeccapurple;
+    display: inline-block;
+    padding: 40px;
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+    background-color: rgb(255, 200, 118);
+    padding: 5px;
+    border: 2px solid whitesmoke;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(72, 187, 149);
+}
